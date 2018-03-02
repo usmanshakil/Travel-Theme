@@ -1,0 +1,18 @@
+<wpml-config>
+    <admin-texts>
+        <key name="theme_mods_bedbreakfast">
+            <key name="left_button" />
+            <key name="left_button_link" />
+            <key name="right_button" />
+            <key name="right_button_link" />
+            <key name="intro-description" />
+            <key name="intro-logos" />
+            <key name="copy_right" />
+        </key>
+        <key name="calender_option">
+            <key name="room_type" />
+            <key name="no_of_guest" />
+            <key name="thank_type" />
+        </key>
+    </admin-texts>
+</wpml-config>

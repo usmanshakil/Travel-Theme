@@ -1,0 +1,1 @@
+Wordpress site template suitable for bed and breakfast, small hotels or accommodations. The main feature is that it is on a single page with simple and clean code.

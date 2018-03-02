@@ -1,0 +1,266 @@
+/*
+Theme Name: Bed & Breakfast One Page
+Theme URI: http://iintellect.co.uk
+Description: Wordpress site template suitable for bed and breakfast, small hotels or accommodations. The main feature is that it is on a single page with simple and clean code.
+Version: 1.1
+Author: iintellect.co.uk
+Author URI: http://iintellect.co.uk
+License: GNU General Public License version 1.0
+License URI: http://iintellect.co.uk
+Tags: responsive-layout, right-sidebar, custom-background, custom-header, custom-menu, featured-images, flexible-header, full-width-template, post-formats, theme-options
+*/
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Yellowtail);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans|Oswald|Droid+Sans|Lato|Open+Sans+Condensed|PT+Sans|Droid+Serif|PT+Sans+Narrow|Ubuntu|Yanone+Kaffeesatz|Roboto|Source+Sans+Pro|Roboto+Condensed|Titillium+Web|Arvo|Lora|Lobster|Nunito|Raleway|Francois+One|Arimo|Rokkitt|PT+Serif|Special+Elite|Cuprum|Unkempt|Cabin|Dosis|Montserrat|Play|Ubuntu+Condensed|Merriweather|Abel|Bitter|Vollkorn|Questrial|Oxygen|Crafty+Girls|Signika|PT+Sans+Caption|Noto+Sans|Dancing+Script|Comfortaa|Maven+Pro|Josefin+Sans|The+Girl+Next+Door|Cantata+One|Marvel|Black+Ops+One|Squada+One|Pontano+Sans|Old+Standard+TT|Playfair+Display|Molengo|Noto+Serif|Crimson+Text|Libre+Baskerville|News+Cycle|Happy+Monkey|Noticia+Text|Ropa+Sans|Indie+Flower|Syncopate|Tangerine|Gudea|Amaranth|Cardo|Inconsolata|Didact+Gothic|Handlee|Goudy+Bookletter+1911|Copse|Patrick+Hand|Carme|Share|Overlock|PT+Serif+Caption|Quattrocento|Metamorphous|Monda|Jura|Poiret+One|Judson|Sanchez|Alegreya|Actor|Fontdiner+Swanky);
+#top-menu li {
+    float: left;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+#top-menu li a {
+    text-decoration: none;
+    color: #505050;
+    font-weight: 700;
+    font-size: 14px;
+}
+#top-menu li a:hover {
+    color: #39bad2;
+}
+#top-menu li ul li {
+    float: none;
+    padding-left: 0px;
+}
+#top-menu li:hover > ul {
+    display: block;
+}
+#top-menu li ul li a {
+    color: #fff;
+}
+#top-menu li ul li a:hover {
+    color:#000;
+}
+#top-menu li ul {
+    position: absolute;
+    background: #51a4c4;
+    padding: 0px 25px 5px 25px;
+    display: none;
+}
+.acti {
+    margin-top: 60px;
+}
+.navi {
+    background:url(images/menu.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.mycarousel img {
+    max-width: 100%;
+    height: auto;
+}
+.wp-caption {
+	max-width: 100% !important;
+	height: auto;
+	}
+#recentcomments li {
+    background: url(images/com.png);
+    background-repeat: no-repeat;
+	padding-left: 20px !important;
+	margin-bottom: 4px;
+	padding: 0 0 8px 0;
+	margin-bottom: 15px;
+	border-bottom: 1px #e7e7e7 dotted;
+	color: #313131;
+	list-style: none;
+	line-height: 18px;
+	padding-bottom: 15px;
+}
+#recentcomments li:last-child { 
+	border-bottom: none;
+}
+.single-style ul {
+	padding: 5px 10px 5px 22px;
+	list-style-type: disc;
+	}
+.single-style ul ul {
+	list-style-type: circle;
+	}	
+.single-style ul ul ul { 
+	list-style-type: square;
+}	
+.single-style ol {
+	padding: 5px 10px 5px 10px;
+	list-style-type: lower-hexadecimal;
+	}	
+.widget_recent_entries li {
+    background: url(images/tiki.png) no-repeat left 3px;
+    line-height: 18px;
+    padding-left: 20px !important;
+    padding: 0 0 8px 0;
+	margin-bottom: 15px;
+	border-bottom: 1px #e7e7e7 dotted;
+	min-height: 25px;
+}
+.widget_recent_entries li:last-child {
+	border-bottom: none;
+	}
+.widget_recent_entries li a {
+	width: 100%;
+	float: left;
+	font-weight: bold;
+}
+.single-style {
+	min-height: 340px;
+	}
+.page_item_has_children	.children {
+	padding-left: 15px;
+	padding-top: 20px;
+}
+.widget_recent_entries .post-date {
+	font-style: italic;
+	color: #888;
+}
+.wp-caption-text{}
+.widget_archive li {
+    background: url(images/archives.png) no-repeat left 3px;
+    line-height: 18px;
+    padding-left: 20px !important;
+    margin-bottom: 6px;
+}
+.sticky {}
+.widget_categories li {
+    background: url(images/category.png) no-repeat left 3px;
+    line-height: 18px;
+    padding-left: 20px !important;
+    margin-bottom: 6px;
+}
+.gallery-caption {}
+.widget_calendar td a {
+    padding: 6px 9px 5px 9px;
+    background: #3279BB;
+    color: #fff;
+}
+.widget_calendar td a:hover {
+    background: #000000;
+}
+.widget_calendar td {
+    padding: 6px 0px 5px 6px;
+}
+.widget_pages li {
+    background: url(images/list-remove.png) no-repeat left 3px;
+    line-height: 18px;
+    padding-left: 20px !important;
+    margin-bottom: 6px;
+}
+.bypostauthor{}
+.widget_nav_menu ul li {
+    background: url(images/tick.png) no-repeat left 3px;
+    line-height: 18px;
+    padding-left: 20px !important;
+    margin-bottom: 6px;
+}
+.widget_nav_menu ul li ul li {
+    background: url(images/okk.png) no-repeat left 3px;
+    line-height: 18px;
+    padding-left: 20px !important;
+    margin-bottom: 6px;
+}
+.widget_meta li {
+    background: url(images/settings.png) no-repeat left 3px;
+    line-height: 18px;
+    padding-left: 20px !important;
+    margin-bottom: 6px;
+}
+.alignleft { 
+    float: left; 
+    margin-right: 10px;
+}
+.alignright { 
+    float: right; 
+    margin-left: 10px;
+}
+.aligncenter {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	clear: both;
+}
+.single-container img {
+	max-width:100%;
+	height: auto;
+	}
+.single-style blockquote,.pagi blockquote {
+	position: relative;
+	margin: 0 0 1.618em;
+	padding: 0 0 0 2.618em;
+	quotes: "\201C" "\201D" "\2018" "\2019";
+	font-style: italic;
+}
+.single-style table, .pagi table {
+	border-spacing: 0;
+	width: 100%;
+	border: 1px solid #dedede;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	border-collapse: separate;
+}
+.single-style table thead th,.pagi table thead th {
+	background: #f5f5f5;
+	border-right: 1px dotted #e4e4e4;
+	border-bottom: 1px solid #ebebeb;
+	text-transform: uppercase;
+	padding: 1.387em;
+	vertical-align: middle;
+}
+.single-style table tbody th, .pagi table tbody th  {
+	background: #fff;
+	border-bottom: 1px solid #ebebeb;
+}
+.single-style table th,.pagi table th {
+	padding: 1em 1.618em;
+	text-align: left;
+	border-right: 1px dotted #ebebeb;
+	vertical-align: top;
+}
+.single-style table td, .pagi table td{
+	padding: 1em 1.618em;
+	text-align: left;
+	border-right: 1px dotted #ebebeb;
+	vertical-align: top;
+}
+.single-style table tbody td, .pagi table tbody td  {
+	border-bottom: 1px solid #ebebeb;
+}
+.single-container .twelve ul li ul, .single-container .twelve ol li ol, .pagi ul li ul, .pagi  ol li ol {
+	margin-left: 1.618em;
+	padding: 5px;
+	}
+.single-container .twelve ul li ul li,.pagi ul li ul li {
+	list-style-image: url(images/tick.png);	
+	}
+.single-container .twelve ul li ul li ul li, .pagi ul li ul li ul li{
+	list-style-image: url(images/okk.png);
+}
+.single-container dl dt,.pagi dl dt {
+	font-weight: bold;
+}	
+i, cite, em, var, address, dfn {
+	font-style: italic;
+}
+.page-template-page-home-php #activities { 
+	text-align: center !important;
+}
+.single-container pre, .pagi pre {
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	background: #f5f5f5;
+	border: 1px solid #dedede;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+input[type="text"],input[type="password"],input[type="email"],textarea,select{ background:#fff; border:1px solid #e6e6e6; border-radius:2px; color:#777; display:block; font:13px "HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif; margin:0; margin-bottom:10px; outline:none; padding:8px;width:90%;  box-shadow:0 0 10px #eee inset;}
+select{ padding:8px; width:97%; -webkit-appearance:none }
+input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,textarea:focus{ border:1px solid #ccc;  border-radius:3px; box-shadow:0 0 3px rgba(0,0,0,.2); color:#444; }
